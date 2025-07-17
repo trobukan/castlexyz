@@ -34,6 +34,48 @@ end
 ---@field opacity? number
 ---@field initialFrame? number
 
+---@class Text
+---@field content? string
+
+---@class FixedMotion
+---@field vx? number
+---@field vy? number
+---@field rotationsPerSecond? number
+---@field enabled? boolean
+
+---@class DynamicMotion: FixedMotion
+---@field density? number
+
+---@class Gravity 
+---@field strength? number
+---@field enabled? boolean
+
+---@class Bounce 
+---@field rebound? number
+---@field enabled? boolean
+
+---@class Friction 
+---@field amount? number
+---@field enabled? boolean
+
+---@class SlowDown
+---@field translation? number
+---@field rotation? number
+---@field enabled? boolean
+
+---@class SpeedLimit
+---@field maxSpeed? number
+---@field enabled? number
+
+---@class AxisLock
+---@field rotates? boolean
+---@field enabled? boolean
+
+---@class AnalogicStick
+---@field speed? number
+---@field turnFriction? number
+---@field axes? "x"|"y"
+
 ---@class Actor
 ---@field layout? Layout
 ---@field drawing? Drawing

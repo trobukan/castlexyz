@@ -17,8 +17,8 @@ function onMessage()
 end
 
 ---@class Layout
----@field x? number X position
----@field y? number Y position 
+---@field x? number 
+---@field y? number 
 ---@field rotation? number 
 ---@field widthScale? number
 ---@field heightScale? number
@@ -27,9 +27,12 @@ end
 
 ---@class Drawing
 ---@field currentFrame? number
----@field playMode? any
----@field framesPerSecond any
----@field loopStartFrame
+---@field playMode "still"|"play once"|"loop"?
+---@field framesPerSecond? number
+---@field loopStartFrame? number
+---@field loopEndFrame? number
+---@field opacity? number
+---@field initialFrame? number
 
 ---@class Actor
 ---@field layout? Layout

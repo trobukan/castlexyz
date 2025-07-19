@@ -82,3 +82,8 @@ end
 ---@param action function
 function runAfterDelay(delay, action) 
 end
+
+---@param interval number
+---@param action function
+function castle.repeatAtInterval(interval, action)
+end

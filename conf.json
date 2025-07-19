@@ -1,6 +1,10 @@
 {
     "name": "Castlexyz",
     "settings": {
+        "Lua.diagnostics.globals": [
+            "castle",
+            "my"
+        ],
         "Lua.runtime.version": "Lua 5.1",
         "Lua.workspace.checkThirdParty": false,
         "Lua.diagnostics.disable": [

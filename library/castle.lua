@@ -95,3 +95,6 @@ end
 ---@param seconds number
 function castle.sleep(seconds)    
 end
+
+function castle.restartCard()
+end

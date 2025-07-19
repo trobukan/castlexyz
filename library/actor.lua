@@ -62,6 +62,10 @@
 ---@field turnFriction? number
 ---@field axes? "x"|"y"
 
+---@class Actor.SlingShot
+---@field speed number
+---@field enabled boolean
+
 ---@class Actor
 ---@field layout? Actor.Layout
 ---@field drawing? Actor.Drawing

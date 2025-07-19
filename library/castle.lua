@@ -14,7 +14,7 @@ function castle.closestActorWithTag(tag)
 end
 
 ---@param tag string
----@return {[string]: Actor} 
+---@return Actor[]
 function castle.actorsWithTag(tag)
 end
 

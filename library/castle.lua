@@ -80,53 +80,85 @@ function castle.getTouches() end
 ---@return Touch | nil touch
 function castle.getTouch(touchId) end
 
+--- Returns a table of all the actors overlap with the given touch.
+---
+--- [View Official Documentation](https://docs.castle.xyz/docs/scripts/castle-library-reference#getActorsAtTouch)
 ---@param touchId number
 ---@return Actor[]
-function castle.getActorsAtTouch(touchId)
-end
+function castle.getActorsAtTouch(touchId) end
 
----@return number, number
-function castle.getDeviceTilt()
-end
+--- Returns two values -- the x and y tilt of the device. 
+--- These values change with the angle at which the user is holding the device.
+---
+--- [View Official Documentation](https://docs.castle.xyz/docs/scripts/castle-library-reference#getDeviceTilt)
+---@return number x
+---@return number y
+function castle.getDeviceTilt() end
 
----@return number
-function castle.getDeviceTiltX()    
-end
+--- Returns the x tilt of the device.
+---
+--- [View Official Documentation](https://docs.castle.xyz/docs/scripts/castle-library-reference#getDeviceTiltX)
+---@return number x
+function castle.getDeviceTiltX() end
 
----@return number
-function castle.getDeviceTiltY()    
-end
+--- Returns the y tilt of the device.
+---
+--- [View Official Documentation](https://docs.castle.xyz/docs/scripts/castle-library-reference#getDeviceTiltY)
+---@return number y
+function castle.getDeviceTiltY() end
 
+--- Triggers a rule that is listening for the script message event.
+---
+--- [View Official Documentation](https://docs.castle.xyz/docs/scripts/castle-library-reference#sendTriggerMessage)
 ---@param message string
-function castle.sendTriggerMessage(message)    
-end
+function castle.sendTriggerMessage(message) end
 
+--- Update a ticker with a diff. Tickers might behave inconsistently if you set them with absolute values.
+---
+--- If you try to reset the ticker to 1 like this:
+--- 
+--- [View Official Documentation](https://docs.castle.xyz/docs/scripts/castle-library-reference#updateTicker)
 ---@param ticker string
 ---@param diff number
-function castle.updateTicker(ticker, diff)    
-end
+function castle.updateTicker(ticker, diff) end
 
----@return number
-function castle.getTime()    
-end
+--- Returns the time elapsed since the card started, in seconds.
+---
+--- [View Official Documentation](https://docs.castle.xyz/docs/scripts/castle-library-reference#getTime)
+---@return number seconds
+function castle.getTime() end
 
+--- Runs the function after a delay.
+---
+--- [View Official Documentation](https://docs.castle.xyz/docs/scripts/castle-library-reference#runAfterDelay)
 ---@param delay number
 ---@param action function
-function castle.runAfterDelay(delay, action) 
-end
+function castle.runAfterDelay(delay, action) end
 
+--- Runs the function after a delay repeatedly.
+---
+--- [View Official Documentation](https://docs.castle.xyz/docs/scripts/castle-library-reference#repeatAtInterval)
 ---@param interval number
 ---@param action function
-function castle.repeatAtInterval(interval, action)
-end
+function castle.repeatAtInterval(interval, action) end
 
+--- Stops a repeat created by castle.[repeatAtInterval](https://docs.castle.xyz/docs/scripts/castle-library-reference#repeatAtInterval).
+--- 
+--- [View Official Documentation](https://docs.castle.xyz/docs/scripts/castle-library-reference#stopRepeat)
 ---@param handler any
-function castle.stopRepeat(handler)    
-end
+function castle.stopRepeat(handler) end
 
+--- WARNING: We recommend not using this. 
+--- It will prevent the rest of your script (including onUpdate and onMessage) from running until it returns. 
+--- You can almost always perform the same logic with a combination of the other time functions.
+--- 
+--- Pauses the entire script for the number of seconds.
+---
+--- [View Official Documentation](https://docs.castle.xyz/docs/scripts/castle-library-reference#sleep)
 ---@param seconds number
-function castle.sleep(seconds)    
-end
+function castle.sleep(seconds) end
 
-function castle.restartCard()
-end
+--- Restart the card.
+--- 
+--- [View Official Documentation](https://docs.castle.xyz/docs/scripts/castle-library-reference#restartCard)
+function castle.restartCard() end

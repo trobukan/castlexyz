@@ -63,22 +63,22 @@
 ---@field axes? "x"|"y"
 
 ---@class Actor.SlingShot
----@field speed number
----@field enabled boolean
+---@field speed? number
+---@field enabled? boolean
 
 ---@class Actor.Counter
----@field value number
----@field enable boolean
+---@field value? number
+---@field enable? boolean
 
 ---@class Actor.Camera
----@field zoom number
----@field angle number
----@field enabled boolean
+---@field zoom? number
+---@field angle? number
+---@field enabled? boolean
 
 ---@class Actor.Tilt
 ---@field accelaration? number
 ---@field axes? "x" | "y"
----@field enabled boolean
+---@field enabled? boolean
 
 ---@class Actor.FaceTracking
 ---@field featureType? "left eye" | "right eye" | "nose" | "mouth"

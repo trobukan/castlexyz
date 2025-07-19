@@ -124,3 +124,6 @@ function Actor:faceDirectionOfMotion(amount) end
 
 ---@param amount? number
 function Actor:moveToFront(amount) end
+
+---@param amount? number
+function Actor:moveToBack(amount) end

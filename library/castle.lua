@@ -91,3 +91,7 @@ end
 ---@param handler any
 function castle.stopRepeat(handler)    
 end
+
+---@param seconds number
+function castle.sleep(seconds)    
+end

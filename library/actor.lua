@@ -127,3 +127,6 @@ function Actor:moveToFront(amount) end
 
 ---@param amount? number
 function Actor:moveToBack(amount) end
+
+---@param amount? number
+function Actor:followWithCamera(amount) end

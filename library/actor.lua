@@ -140,3 +140,7 @@ function Actor:addTag(...) end
 
 ---@param ... string
 function Actor:removeTag(...) end
+
+---@param tag? string
+---@return boolean
+function Actor:isColliding(tag) end

@@ -68,7 +68,7 @@
 
 ---@class Actor.Counter
 ---@field value? number
----@field enable? boolean
+---@field enabled? boolean
 
 ---@class Actor.Camera
 ---@field zoom? number
@@ -106,3 +106,4 @@
 
 ---@type Actor
 my = {}
+

@@ -51,7 +51,7 @@
 
 ---@class Actor.SpeedLimit
 ---@field maxSpeed? number
----@field enabled? number
+---@field enabled? boolean
 
 ---@class Actor.AxisLock
 ---@field rotates? boolean
@@ -76,7 +76,7 @@
 ---@field enabled? boolean
 
 ---@class Actor.Tilt
----@field accelaration? number
+---@field acceleration? number
 ---@field axes? "x" | "y"
 ---@field enabled? boolean
 

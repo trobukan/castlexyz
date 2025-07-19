@@ -68,3 +68,8 @@ end
 ---@param message string
 function castle.sendTriggerMessage(message)    
 end
+
+---@param ticker string
+---@param diff number
+function castle.updateTicker(ticker, diff)    
+end

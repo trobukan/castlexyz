@@ -69,10 +69,16 @@ function castle.createTextBox(message, action) end
 ---@return Touch[]
 function castle.getTouches() end
 
+
+--- Returns a table with the same fields as each element of [castle.getTouches()](https://docs.castle.xyz/docs/scripts/castle-library-reference#getTouches)
+---
+--- it returns the currently active touch with that id, or nil if no such touch is active. 
+--- If touchId is not given the oldest active touch is returned.
+---
+--- [View Official Documentation](https://docs.castle.xyz/docs/scripts/castle-library-reference#getTouch)
 ---@param touchId? number
----@return Touch | nil
-function castle.getTouch(touchId)    
-end
+---@return Touch | nil touch
+function castle.getTouch(touchId) end
 
 ---@param touchId number
 ---@return Actor[]

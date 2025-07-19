@@ -144,3 +144,7 @@ function Actor:removeTag(...) end
 ---@param tag? string
 ---@return boolean
 function Actor:isColliding(tag) end
+
+---@param tag? string
+---@return Actor[]
+function Actor:getCollidingActors(tag) end

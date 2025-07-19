@@ -22,3 +22,8 @@ end
 ---@return number
 function castle.numActorsWithTag(tag)
 end
+
+---@param message string
+---@param action function
+function castle.createTextBox(message, action)
+end

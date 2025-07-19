@@ -34,6 +34,9 @@ function castle.closestActorWithTag(tag) end
 ---@return Actor[]
 function castle.actorsWithTag(tag) end
 
+--- Returns the number of actors with the tag.
+---
+--- [View Official Documentation](https://docs.castle.xyz/docs/scripts/castle-library-reference#numActorsWithTag)
 ---@param tag string
 ---@return number
 function castle.numActorsWithTag(tag)

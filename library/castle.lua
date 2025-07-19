@@ -17,3 +17,8 @@ end
 ---@return {[string]: Actor} 
 function castle.actorsWithTag(tag)
 end
+
+---@param tag string
+---@return number
+function castle.numActorsWithTag(tag)
+end

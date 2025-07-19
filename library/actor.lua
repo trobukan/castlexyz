@@ -1,4 +1,4 @@
----@class Layout
+---@class Actor.Layout
 ---@field x? number 
 ---@field y? number 
 ---@field rotation? number 
@@ -7,7 +7,7 @@
 ---@field visible? boolean
 ---@field enabled? boolean
 
----@class Drawing
+---@class Actor.Drawing
 ---@field currentFrame? number
 ---@field playMode "still"|"play once"|"loop"?
 ---@field framesPerSecond? number
@@ -16,60 +16,64 @@
 ---@field opacity? number
 ---@field initialFrame? number
 
----@class Text
+---@class Actor.Text
 ---@field content? string
 
----@class FixedMotion
+---@class Actor.FixedMotion
 ---@field vx? number
 ---@field vy? number
 ---@field rotationsPerSecond? number
 ---@field enabled? boolean
 
----@class DynamicMotion: FixedMotion
+---@class Actor.DynamicMotion
+---@field vx? number
+---@field vy? number
+---@field rotationSpeed? number
 ---@field density? number
+---@field enabled? boolean
 
----@class Gravity 
+---@class Actor.Gravity 
 ---@field strength? number
 ---@field enabled? boolean
 
----@class Bounce 
+---@class Actor.Bounce 
 ---@field rebound? number
 ---@field enabled? boolean
 
----@class Friction 
+---@class Actor.Friction 
 ---@field amount? number
 ---@field enabled? boolean
 
----@class SlowDown
+---@class Actor.SlowDown
 ---@field translation? number
 ---@field rotation? number
 ---@field enabled? boolean
 
----@class SpeedLimit
+---@class Actor.SpeedLimit
 ---@field maxSpeed? number
 ---@field enabled? number
 
----@class AxisLock
+---@class Actor.AxisLock
 ---@field rotates? boolean
 ---@field enabled? boolean
 
----@class AnalogicStick
+---@class Actor.AnalogicStick
 ---@field speed? number
 ---@field turnFriction? number
 ---@field axes? "x"|"y"
 
 ---@class Actor
----@field layout? Layout
----@field drawing? Drawing
----@field text? Text
----@field fixedMotion? FixedMotion
----@field dynamicMotion? DynamicMotion
----@field gravity? Gravity
----@field bounce? Bounce
----@field friction? Friction
----@field slowDown? SlowDown
----@field speedLimit SpeedLimit
----@field axisLock AxisLock
+---@field layout? Actor.Layout
+---@field drawing? Actor.Drawing
+---@field text? Actor.Text
+---@field fixedMotion? Actor.FixedMotion
+---@field dynamicMotion? Actor.DynamicMotion
+---@field gravity? Actor.Gravity
+---@field bounce? Actor.Bounce
+---@field friction? Actor.Friction
+---@field slowDown? Actor.SlowDown
+---@field speedLimit? Actor.SpeedLimit
+---@field axisLock? Actor.AxisLock
 
 ---@type Actor
 my = {}

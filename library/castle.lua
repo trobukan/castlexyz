@@ -27,10 +27,12 @@ function castle.destroyActor(actor) end
 ---@return Actor | nil
 function castle.closestActorWithTag(tag) end
 
+--- Returns a table of all actors with the tag.
+---
+--- [View Official Documentation](https://docs.castle.xyz/docs/scripts/castle-library-reference#actorsWithTag)
 ---@param tag string
 ---@return Actor[]
-function castle.actorsWithTag(tag)
-end
+function castle.actorsWithTag(tag) end
 
 ---@param tag string
 ---@return number

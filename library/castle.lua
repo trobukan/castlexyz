@@ -43,8 +43,8 @@ end
 function castle.getTouches()
 end
 
----@param touchId number
----@return Touch[]
+---@param touchId? number
+---@return Touch | nil
 function castle.getTouch(touchId)    
 end
 

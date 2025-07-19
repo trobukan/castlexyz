@@ -13,5 +13,7 @@ end
 
 --- handler is used to pass messages from Castle rules into the script.
 ---@source https://docs.castle.xyz/docs/scripts/tutorials/handlers#onmessage
-function onMessage()
+---@param message string
+---@param triggeringActor Actor
+function onMessage(message, triggeringActor)
 end

@@ -52,3 +52,7 @@ end
 ---@return Actor[]
 function castle.getActorsAtTouch(touchId)
 end
+
+---@return number, number
+function castle.getDeviceTilt()
+end

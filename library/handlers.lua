@@ -1,9 +1,9 @@
 ---@meta
 
---- handler is called when the actor is created
----@source https://docs.castle.xyz/docs/scripts/tutorials/handlers#oncreate
-function onCreate()
-end
+--- The onCreate handler is called when the actor is created
+--- 
+---[View Official Documentation](https://docs.castle.xyz/docs/scripts/tutorials/handlers#oncreate)
+function onCreate() end
 
 --- is called every frame
 ---@param dt number time

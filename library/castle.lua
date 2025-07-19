@@ -47,3 +47,8 @@ end
 ---@return Touch[]
 function castle.getTouch(touchId)    
 end
+
+---@param touchId number
+---@return Actor[]
+function castle.getActorsAtTouch(touchId)
+end

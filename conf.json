@@ -1,11 +1,12 @@
 {
-    "name": "Catlexyz",
+    "name": "Castlexyz",
     "settings": {
         "Lua.runtime.version": "Lua 5.1",
         "Lua.workspace.checkThirdParty": false,
         "Lua.diagnostics.disable": [
             "lowercase-global",
-            "undefined-doc-param"
+            "undefined-doc-param",
+            "undefined-global"
         ],
         "Lua.runtime.nonstandardSymbol": [
             "!=",

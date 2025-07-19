@@ -130,3 +130,7 @@ function Actor:moveToBack(amount) end
 
 ---@param amount? number
 function Actor:followWithCamera(amount) end
+
+---@param tag string
+---@return boolean
+function Actor:hasTag(tag) end

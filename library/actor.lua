@@ -107,3 +107,6 @@ Actor = {}
 
 ---@return number
 function Actor:speed() end
+
+---@return number
+function Actor:angleOfMotion() end

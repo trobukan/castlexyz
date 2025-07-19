@@ -114,3 +114,7 @@ function Actor:angleOfMotion() end
 ---@param other Actor
 ---@return number
 function Actor:distanceTo(other) end
+
+---@param other Actor
+---@return number
+function Actor:angleTo(other) end

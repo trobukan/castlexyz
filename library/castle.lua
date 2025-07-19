@@ -77,3 +77,8 @@ end
 ---@return number
 function castle.getTime()    
 end
+
+---@param delay number
+---@param action function
+function runAfterDelay(delay, action) 
+end

@@ -80,7 +80,7 @@ end
 
 ---@param delay number
 ---@param action function
-function runAfterDelay(delay, action) 
+function castle.runAfterDelay(delay, action) 
 end
 
 ---@param interval number

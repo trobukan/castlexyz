@@ -56,3 +56,7 @@ end
 ---@return number, number
 function castle.getDeviceTilt()
 end
+
+---@return number
+function castle.getDeviceTiltX()    
+end

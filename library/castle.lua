@@ -9,10 +9,11 @@ function castle.destroyActor(actor)
 end
 
 ---@param tag string
+---@return Actor
 function castle.closestActorWithTag(tag)    
 end
 
 ---@param tag string
----@return table
+---@return {[string]: Actor} 
 function castle.actorsWithTag(tag)
 end

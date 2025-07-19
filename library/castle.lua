@@ -60,3 +60,7 @@ end
 ---@return number
 function castle.getDeviceTiltX()    
 end
+
+---@return number
+function castle.getDeviceTiltY()    
+end

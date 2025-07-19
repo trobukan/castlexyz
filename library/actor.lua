@@ -61,6 +61,15 @@
 ---@class Actor
 ---@field layout? Layout
 ---@field drawing? Drawing
+---@field text? Text
+---@field fixedMotion? FixedMotion
+---@field dynamicMotion? DynamicMotion
+---@field gravity? Gravity
+---@field bounce? Bounce
+---@field friction? Friction
+---@field slowDown? SlowDown
+---@field speedLimit SpeedLimit
+---@field axisLock AxisLock
 
 ---@type Actor
 my = {}

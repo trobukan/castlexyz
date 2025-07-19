@@ -75,6 +75,11 @@
 ---@field angle number
 ---@field enabled boolean
 
+---@class Actor.Tilt
+---@field accelaration? number
+---@field axes? "x" | "y"
+---@field enabled boolean
+
 ---@class Actor
 ---@field layout? Actor.Layout
 ---@field drawing? Actor.Drawing

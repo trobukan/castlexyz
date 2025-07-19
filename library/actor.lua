@@ -80,6 +80,12 @@
 ---@field axes? "x" | "y"
 ---@field enabled boolean
 
+---@class Actor.FaceTracking
+---@field featureType? "left eye" | "right eye" | "nose" | "mouth"
+---@field offsetX? number
+---@field offsetY? number
+---@field enabled? boolean
+
 ---@class Actor
 ---@field layout? Actor.Layout
 ---@field drawing? Actor.Drawing

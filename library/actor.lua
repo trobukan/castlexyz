@@ -103,7 +103,10 @@
 ---@field camera? Actor.Camera
 ---@field tilt? Actor.Tilt
 ---@field faceTracking? Actor.FaceTracking
-Actor = {}
+local Actor = {}
+
+---@type Actor
+my = {}
 
 ---@return number
 function Actor:speed() end

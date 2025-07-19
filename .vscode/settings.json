@@ -1,5 +1,9 @@
 {
 "Lua.workspace.libray": [
     "${workspaceFolder}/meta/castle.lua"
+],
+"Lua.diagnostics.disable": [
+    "lowercase-global",
+    "missing-return"
 ]
 }

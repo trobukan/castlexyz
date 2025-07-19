@@ -134,3 +134,6 @@ function Actor:followWithCamera(amount) end
 ---@param tag string
 ---@return boolean
 function Actor:hasTag(tag) end
+
+---@param ... string
+function Actor:addTag(...) end

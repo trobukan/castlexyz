@@ -9,7 +9,7 @@ function castle.destroyActor(actor)
 end
 
 ---@param tag string
----@return Actor?
+---@return Actor | nil
 function castle.closestActorWithTag(tag)    
 end
 

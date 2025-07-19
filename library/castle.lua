@@ -73,3 +73,7 @@ end
 ---@param diff number
 function castle.updateTicker(ticker, diff)    
 end
+
+---@return number
+function castle.getTime()    
+end

@@ -39,13 +39,16 @@ function castle.actorsWithTag(tag) end
 --- [View Official Documentation](https://docs.castle.xyz/docs/scripts/castle-library-reference#numActorsWithTag)
 ---@param tag string
 ---@return number
-function castle.numActorsWithTag(tag)
-end
-
+function castle.numActorsWithTag(tag) end
+ 
+--- Creates a text box at the bottom of the screen. When the user taps the text box it disappears. action is optional and can be 
+--- used to change the tap action -- currently the only supported value for action is "none" which causes the text box to not 
+--- disappear on tap.
+---
+--- [View Official Documentation](https://docs.castle.xyz/docs/scripts/castle-library-reference#createTextBox)
 ---@param message string
 ---@param action function
-function castle.createTextBox(message, action)
-end
+function castle.createTextBox(message, action) end
 
 ---@class Touch
 ---@field id number

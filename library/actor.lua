@@ -70,6 +70,11 @@
 ---@field value number
 ---@field enable boolean
 
+---@class Actor.Camera
+---@field zoom number
+---@field angle number
+---@field enabled boolean
+
 ---@class Actor
 ---@field layout? Actor.Layout
 ---@field drawing? Actor.Drawing

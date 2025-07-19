@@ -121,3 +121,6 @@ function Actor:angleTo(other) end
 
 ---@param amount? number
 function Actor:faceDirectionOfMotion(amount) end
+
+---@param amount? number
+function Actor:moveToFront(amount) end

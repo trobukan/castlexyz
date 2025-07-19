@@ -3,6 +3,17 @@
 ---@class Castle
 castle = {}
 
+--- Creates a new actor using a name of a blueprint and the initial x and y position
+--- 
+--- This returns an actor variable that you can use to access actor properties or pass into other functions.
+--- 
+--- [View Official Documentation](https://docs.castle.xyz/docs/scripts/castle-library-reference#createActor)
+---@param blueprint string
+---@param x number
+---@param y number
+---@return Actor 
+function castle.createActor(blueprint, x, y) end
+
 --- Destroys an actor.
 ---@param actor Actor
 function castle.destroyActor(actor)

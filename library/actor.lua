@@ -137,3 +137,6 @@ function Actor:hasTag(tag) end
 
 ---@param ... string
 function Actor:addTag(...) end
+
+---@param ... string
+function Actor:removeTag(...) end

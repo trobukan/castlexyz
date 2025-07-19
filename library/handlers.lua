@@ -14,9 +14,9 @@ function onCreate() end
 ---@param dt number
 function onUpdate(dt) end
 
---- handler is used to pass messages from Castle rules into the script.
----@source https://docs.castle.xyz/docs/scripts/tutorials/handlers#onmessage
+--- The onMessage handler is used to pass messages from Castle rules into the script.
+--- 
+--- [View Official Documentation](https://docs.castle.xyz/docs/scripts/tutorials/handlers#onmessage)
 ---@param message string
 ---@param triggeringActor Actor
-function onMessage(message, triggeringActor)
-end
+function onMessage(message, triggeringActor) end

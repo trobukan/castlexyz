@@ -98,6 +98,11 @@
 ---@field slowDown? Actor.SlowDown
 ---@field speedLimit? Actor.SpeedLimit
 ---@field axisLock? Actor.AxisLock
+---@field slingShot? Actor.SlingShot
+---@field counter? Actor.Counter
+---@field camera? Actor.Camera
+---@field tilt? Actor.Tilt
+---@field faceTracking? Actor.FaceTracking
 
 ---@type Actor
 my = {}

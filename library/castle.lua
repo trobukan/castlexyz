@@ -15,9 +15,10 @@ castle = {}
 function castle.createActor(blueprint, x, y) end
 
 --- Destroys an actor.
+--- 
+--- [View Official Documentation](https://docs.castle.xyz/docs/scripts/castle-library-reference#destroyActor)
 ---@param actor Actor
-function castle.destroyActor(actor)
-end
+function castle.destroyActor(actor) end
 
 ---@param tag string
 ---@return Actor | nil

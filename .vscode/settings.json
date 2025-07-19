@@ -1,9 +1,31 @@
 {
-"Lua.workspace.libray": [
-    "${workspaceFolder}/meta/castle.lua"
-],
-"Lua.diagnostics.disable": [
-    "lowercase-global",
-    "missing-return"
-]
+    "Lua.runtime.version": "Lua 5.1",
+    "Lua.workspace.checkThirdParty": false,
+    "Lua.diagnostics.disable": [
+        "lowercase-global",
+        "undefined-doc-param"
+    ],
+    "Lua.runtime.nonstandardSymbol": [
+        "!=",
+        "+=",
+        "-=",
+        "*=",
+        "/=",
+        "%=",
+        "^=",
+        "|=",
+        "&=",
+        "<<=",
+        ">>=",
+        "//"
+    ],
+    "Lua.runtime.builtin": {
+        "os": "disable",
+        "debug": "disable",
+        "bit": "disable",
+        "bit32": "disable",
+        "ffi": "disable",
+        "jit":"disable",
+        "utf8": "disable"
+    }
 }

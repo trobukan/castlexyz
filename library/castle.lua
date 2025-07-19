@@ -61,9 +61,13 @@ function castle.createTextBox(message, action) end
 ---@field pressed boolean
 ---@field duration number
 
+--- Returns a table of currently active touches.
+--- 
+--- The results are in order of oldest to latest touch. 
+---
+--- [View Official Documentation](https://docs.castle.xyz/docs/scripts/castle-library-reference#getTouches)
 ---@return Touch[]
-function castle.getTouches()
-end
+function castle.getTouches() end
 
 ---@param touchId? number
 ---@return Touch | nil

@@ -87,3 +87,7 @@ end
 ---@param action function
 function castle.repeatAtInterval(interval, action)
 end
+
+---@param handler any
+function castle.stopRepeat(handler)    
+end

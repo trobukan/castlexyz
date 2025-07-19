@@ -66,6 +66,10 @@
 ---@field speed number
 ---@field enabled boolean
 
+---@class Actor.Counter
+---@field value number
+---@field enable boolean
+
 ---@class Actor
 ---@field layout? Actor.Layout
 ---@field drawing? Actor.Drawing

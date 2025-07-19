@@ -64,3 +64,7 @@ end
 ---@return number
 function castle.getDeviceTiltY()    
 end
+
+---@param message string
+function castle.sendTriggerMessage(message)    
+end

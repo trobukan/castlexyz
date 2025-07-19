@@ -20,10 +20,12 @@ function castle.createActor(blueprint, x, y) end
 ---@param actor Actor
 function castle.destroyActor(actor) end
 
+--- Returns the closest actor with the tag, or nil.
+---
+--- [View Official Documentation](https://docs.castle.xyz/docs/scripts/castle-library-reference#closestActorWithTag)
 ---@param tag string
 ---@return Actor | nil
-function castle.closestActorWithTag(tag)    
-end
+function castle.closestActorWithTag(tag) end
 
 ---@param tag string
 ---@return Actor[]

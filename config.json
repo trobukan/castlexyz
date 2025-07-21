@@ -9,8 +9,7 @@
         "Lua.workspace.checkThirdParty": false,
         "Lua.diagnostics.disable": [
             "lowercase-global",
-            "undefined-doc-param",
-            "undefined-global"
+            "undefined-doc-param"
         ],
         "Lua.runtime.nonstandardSymbol": [
             "!=",
